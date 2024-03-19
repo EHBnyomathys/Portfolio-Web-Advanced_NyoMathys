@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basis CSS animatie</title>
+  <style>
+    .uitleg
+    {
+      font-size: larger;
+      font-family: Arial;
+      font-weight: 700;
+      background-color: rgb(185, 185, 185);
+      width: fit-content;
+      padding: 0.5em;
+      border-radius: 5px;
+      filter: opacity(90%);
+    }
+    body
+    {
+      background-image: url('/Images/Background.jpg');
+      background-size: 300px;
+      margin: 0%;
+      font-family: Arial;
+    }
+    a
+    {
+      text-decoration: none;
+      color: black;
+      font-family: Arial;
+      font-size: large;
+    }
+    nav
+    {
+      background-color: rgb(148, 91, 227);
+      padding: 0.5em;
+    }
+    nav p
+    {
+      font-size: 30px;
+      font-family: Arial;
+      text-align: center;
+      padding-right: 1em;
+    }
+    .home a img
+    {
+      width: 3em;
+      border-radius: 10px;
+    }
+    .home
+    {
+      width: fit-content;
+      align-self: center;
+      padding: 1em;
+    }
+    .home:hover
+    {
+      filter: brightness(40%);
+    }
+    .tekst
+    {
+      width: fit-content;
+      padding-left: 2em;
+    }
+    .gedeelte
+    {
+      display:flex;
+    }
+    .MarioRotate1 img
+    {
+      width: 100px;
+    }
+    .MarioRotate1
+    {
+      width: 100px;
+      margin: 40px;
+    }
+    .MarioRotate1:hover
+    {
+      transform: rotate(90deg);
+    }
+    .MarioRotate2 img
+    {
+      width: 100px;
+    }
+    .MarioRotate2
+    {
+      width: 100px;
+      margin: 40px;
+    }
+    .MarioRotate2:hover
+    {
+      transform: rotate(180deg);
+    }
+    .MarioRotate3 img
+    {
+      width: 100px;
+    }
+    .MarioRotate3
+    {
+      width: 100px;
+      margin: 40px;
+    }
+    .MarioRotate3:hover
+    {
+      transform: rotate(270deg);
+    }
+    .MarioRij
+    {
+      display:inline-flex;
+    }
+    
+    .MarioSkew1 img
+    {
+      width: 100px;
+    }
+    .MarioSkew1
+    {
+      width: 100px;
+      margin: 40px;
+    }
+    .MarioSkew1:hover
+    {
+      transform: skew(20deg, -40deg);
+    }
+    .MarioSkew2 img
+    {
+      width: 100px;
+    }
+    .MarioSkew2
+    {
+      width: 100px;
+      margin: 40px;
+    }
+    .MarioSkew2:hover
+    {
+      transform: skew(60deg, 70deg);
+    }
+    .MarioSkew3 img
+    {
+      width: 100px;
+    }
+    .MarioSkew3
+    {
+      width: 100px;
+      margin: 40px;
+    }
+    .MarioSkew3:hover
+    {
+      transform: skew(-20deg, -40deg);
+    }
+    .MarioSpeciaal1 img
+    {
+      width: 100px;
+    }
+    .MarioSpeciaal1
+    {
+      width: 100px;
+      margin: 40px;
+    }
+    .MarioSpeciaal1:hover
+    {
+      animation: draai 3s infinite linear;
+    }
+    @keyframes draai
+    {
+      from{transform: rotateY(0deg);}
+      to{transform: rotateY(360deg);}
+    }
+    .MarioSpeciaal2 img
+    {
+      width: 100px;
+    }
+    .MarioSpeciaal2
+    {
+      width: 100px;
+      margin: 40px;
+    }
+    .MarioSpeciaal2:hover
+    {
+      animation: spring 1s infinite;
+    }
+    @keyframes spring
+    {
+      0%, 100%{transform: translateY(0);}
+      50%{transform: translateY(-100px);}
+    }
+    .MarioSpeciaal3 img
+    {
+      width: 100px;
+    }
+    .MarioSpeciaal3
+    {
+      width: 100px;
+      margin: 40px;
+    }
+    .MarioSpeciaal3:hover
+    {
+      animation: puls 1s infinite alternate;
+    }
+    @keyframes puls
+    {
+      0%{transform: scale(1);}
+      100%{transform: scale(1,2);}
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="gedeelte">
+      <div class="home">
+        <a href="/html/Main.html"><img src="/Images/HomeIcon.jpg"></a>
+      </div>
+      <div class="tekst">
+        <p>Basis CSS animatie</p>
+      </div>
+    </div>
+  </nav>
+  <p class="uitleg">Rotatie</p>
+  <div class="MarioRij">
+    <div class="MarioRotate1"><img src="/Images/Mario.png"></div>
+    <div class="MarioRotate2"><img src="/Images/Mario.png"></div>
+    <div class="MarioRotate3"><img src="/Images/Mario.png"></div>
+  </div>
+  <hr>
+  <p class="uitleg">skew</p>
+  <div class="MarioRij">
+    <div class="MarioSkew1"><img src="/Images/Mario.png"></div>
+    <div class="MarioSkew2"><img src="/Images/Mario.png"></div>
+    <div class="MarioSkew3"><img src="/Images/Mario.png"></div>
+  </div>
+  <hr>
+  <p class="uitleg">Speciaal</p>
+  <div class="MarioRij">
+    <div class="MarioSpeciaal1"><img src="/Images/Mario.png"></div>
+    <div class="MarioSpeciaal2"><img src="/Images/Mario.png"></div>
+    <div class="MarioSpeciaal3"><img src="/Images/Mario.png"></div>
+  </div>
+</body>
+</html>
