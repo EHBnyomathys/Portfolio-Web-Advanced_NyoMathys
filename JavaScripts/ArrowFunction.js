@@ -5,10 +5,20 @@ document.getElementById("button1").addEventListener("click", () => {
 });
 
 const greetUser = (name) => {
-  if (clickedButton1) {
-    alert(`Hallo, ${name}! Waarom heb je op die ene knop geklikt?! Ik had je gevraagd om dit niet te doen!`);
-  } else {
-    alert(`Hallo, ${name}! Bedankt om niet op de kleine knop te klikken!`);
+  if (name.trim() !== "")
+  {
+    if (clickedButton1)
+    {
+      alert(`Hallo, ${name}! Waarom heb je op die ene knop geklikt?! Ik had je gevraagd om dit niet te doen!`);
+    }
+    else
+    {
+      alert(`Hallo, ${name}! Bedankt om niet op de kleine knop te klikken!`);
+    }
+  }
+  else
+  {
+    alert("Voer alstublieft uw naam in.");
   }
 };
 
