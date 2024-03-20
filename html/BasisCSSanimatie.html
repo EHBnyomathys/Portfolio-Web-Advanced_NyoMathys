@@ -203,6 +203,27 @@
       0%{transform: scale(1);}
       100%{transform: scale(1,2);}
     }
+    .MarioAdvanced img
+    {
+      width: 100px;
+    }
+    .MarioAdvanced
+    {
+      width: 100px;
+      margin: 40px;
+    }
+    .MarioAdvanced:hover
+    {
+      animation: crazyBackflip 1.5s infinite forwards;
+    }
+    @keyframes crazyBackflip
+    {
+      50%{transform: translateX(200px);}
+      60%{transform: translateX(200px) translateY(-50px) rotate(0deg);}
+      70%{transform: translateX(200px) translateY(0px) rotate(-180deg);}
+      80%{transform: translateX(200px) translateY(0px) rotate(-360deg);}
+      100%{transform: translateX(400px) translateY(0px) rotate(-360deg);}
+    }
   </style>
 </head>
 <body>
@@ -235,6 +256,10 @@
     <div class="MarioSpeciaal1"><img src="/Images/Mario.png"></div>
     <div class="MarioSpeciaal2"><img src="/Images/Mario.png"></div>
     <div class="MarioSpeciaal3"><img src="/Images/Mario.png"></div>
+  </div>
+  <p class="uitleg">Advanced</p>
+  <div class="MarioRij">
+    <div class="MarioAdvanced"><img src="/Images/Mario.png"></div>
   </div>
 </body>
 </html>
