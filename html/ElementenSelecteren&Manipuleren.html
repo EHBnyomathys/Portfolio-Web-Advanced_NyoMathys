@@ -55,6 +55,28 @@
     {
       display:flex;
     }
+    #tekst
+    {
+      color: black;
+    }
+    button
+    {
+      font-size: large;
+      width: 200px;
+    }
+    .stukske p
+    {
+      font-size: large;
+      background-color: white;
+      padding: 0.5em;
+    }
+    .stukske
+    {
+      background-color: rgb(233, 252, 192);
+      width: 200px;
+      padding: 1em;
+      margin: 30px;
+    }
   </style>
 </head>
 <body>
@@ -67,7 +89,11 @@
         <p>Elementen selecteren & manipuleren</p>
       </div>
     </nav>
-
-    <h1>sample text</h1>
+    <div class="stukske">
+      <p id="tekst">Dit is een tekstje dat we gaan manipuleren/van kleur gaan veranderen!</p>
+      <button id="veranderKleur">Verander kleur</button>
+    </div>
+    
+    <script src="/JavaScripts/ElementenSelecterenManipuleren.js"></script>
 </body>
 </html>
