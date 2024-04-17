@@ -55,6 +55,38 @@
     {
       display:flex;
     }
+    form
+    {
+      background-color: rgb(119, 222, 251);
+      padding: 1em;
+      border-radius: 1em;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      width: 30em;
+      margin: 1em;
+    }
+    label
+    {
+      display: block;
+    }
+    input[type="text"]
+    {
+      width: 24.3em;
+      padding: 1em;
+      font-size: large;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-bottom: 1em;
+    }
+    button
+    {
+      padding: 0.5em 1em;
+      font-size: large;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
   </style>
 </head>
 <body>
@@ -67,7 +99,12 @@
         <p>Formulier valideren</p>
       </div>
     </nav>
-
-    <h1>sample text</h1>
+    <form id="coolFormulier">
+      <label for="tekstveld">Voer tekst in:</label><br>
+      <input type="text" id="tekstveld" name="tekstveld"><br>
+      <button type="submit">Verstuur</button>
+    </form>
+    <div id="foutmelding" style="color: red;"></div>
+    <script src="/JavaScripts/FormulierValideren.js"></script>
 </body>
 </html>
