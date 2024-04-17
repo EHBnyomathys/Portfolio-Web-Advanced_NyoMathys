@@ -55,7 +55,7 @@
     {
       display:flex;
     }
-    form
+    .form1
     {
       background-color: rgb(119, 222, 251);
       padding: 1em;
@@ -64,11 +64,11 @@
       width: 30em;
       margin: 1em;
     }
-    label
+    .label1
     {
       display: block;
     }
-    input[type="text"]
+    .tekstveld1
     {
       width: 24.3em;
       padding: 1em;
@@ -77,7 +77,7 @@
       border-radius: 5px;
       margin-bottom: 1em;
     }
-    button
+    .button1
     {
       padding: 0.5em 1em;
       font-size: large;
@@ -86,6 +86,61 @@
       border: none;
       border-radius: 5px;
       cursor: pointer;
+      margin-bottom: 0.5em;
+    }
+    .form2
+    {
+      background-color: rgb(142, 122, 247);
+      padding: 1em;
+      border-radius: 1em;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      width: 30em;
+      margin: 1em;
+      color: white;
+    }
+    .tekstveld2
+    {
+      width: 24.3em;
+      font-size: large;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-bottom: 1em;
+    }
+    .email
+    {
+      width: 24.3em;
+      font-size: large;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-bottom: 1em;
+    }
+    .tekstArea
+    {
+      width: 25.4em;
+      padding: 1em;
+      font-size: large;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-bottom: 1em;
+    }
+    .button2
+    {
+      padding: 0.5em 1em;
+      font-size: large;
+      background-color: #8800ff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-bottom: 0.5em;
+    }
+    .benoeming
+    {
+      background-color: rgb(187, 187, 187);
+      width: fit-content;
+      padding: 7px;
+      border-radius: 5px;
+      margin-left: 1em;
     }
   </style>
 </head>
@@ -98,13 +153,25 @@
       <div class="tekst">
         <p>Formulier valideren</p>
       </div>
-    </nav>
-    <form id="coolFormulier">
-      <label for="tekstveld">Voer tekst in:</label><br>
-      <input type="text" id="tekstveld" name="tekstveld"><br>
-      <button type="submit">Verstuur</button>
-    </form>
-    <div id="foutmelding" style="color: red;"></div>
-    <script src="/JavaScripts/FormulierValideren.js"></script>
+    </div>
+  </nav>
+  <p class="benoeming">Simpel</p>
+  <form id="coolFormulier" class="form1">
+    <label class="label1" for="tekstveld">Voer tekst in:</label><br>
+    <input class="tekstveld1" type="text" id="tekstveld" name="tekstveld"><br>
+    <button class="button1" type="submit">Verstuur</button>
+    <div id="foutmelding" style="color: rgb(0, 0, 0);"></div>
+  </form>
+  <p class="benoeming">Gevorderd</p>
+  <form id="contactForm" class="form2">
+    <label class="label2" for="naam">Naam:</label><br>
+    <input class="tekstveld2" type="text" id="naam" name="naam"><span class="foutmelding2" id="naamFout"></span><br>
+    <label class="label3" for="email">E-mail:</label><br>
+    <input class="email" type="email" id="email" name="email"><span class="foutmelding3" id="emailFout"></span><br>
+    <label class="label4" for="bericht">Bericht:</label><br>
+    <textarea class="tekstArea" id="bericht" name="bericht"></textarea><span class="foutmelding4" id="berichtFout"></span><br>
+    <button class="button2" type="submit">Verstuur</button>
+  </form>
+  <script src="/JavaScripts/FormulierValideren.js"></script>
 </body>
 </html>
