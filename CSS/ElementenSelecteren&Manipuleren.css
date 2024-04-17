@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Elementen selecteren</title>
-  <style>
-    body
+body
     {
       background-image: url('/Images/Background.jpg');
       background-size: 300px;
@@ -55,19 +48,25 @@
     {
       display:flex;
     }
-  </style>
-</head>
-<body>
-  <nav>
-    <div class="gedeelte">
-      <div class="home">
-        <a href="/html/Main.html"><img src="/Images/HomeIcon.jpg"></a>
-      </div>
-      <div class="tekst">
-        <p>Dummy Page</p>
-      </div>
-    </nav>
-
-    <h1>sample text</h1>
-</body>
-</html>
+    #tekst
+    {
+      color: black;
+    }
+    button
+    {
+      font-size: large;
+      width: 200px;
+    }
+    .stukske p
+    {
+      font-size: large;
+      background-color: white;
+      padding: 0.5em;
+    }
+    .stukske
+    {
+      background-color: rgb(233, 252, 192);
+      width: 200px;
+      padding: 1em;
+      margin: 30px;
+    }
