@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event koppelen & Arrow function</title>
+  <style>
+    body
+    {
+      background-image: url('/Images/Background.jpg');
+      background-size: 300px;
+      margin: 0%;
+      font-family: Arial;
+    }
+    a
+    {
+      text-decoration: none;
+      color: black;
+      font-family: Arial;
+      font-size: large;
+    }
+    nav
+    {
+      background-color: rgb(148, 91, 227);
+      padding: 0.5em;
+    }
+    nav p
+    {
+      font-size: 30px;
+      font-family: Arial;
+      text-align: center;
+      padding-right: 1em;
+    }
+    .home a img
+    {
+      width: 3em;
+      border-radius: 10px;
+    }
+    .home
+    {
+      width: fit-content;
+      align-self: center;
+      padding: 1em;
+    }
+    .home:hover
+    {
+      filter: brightness(40%);
+    }
+    .tekst
+    {
+      width: fit-content;
+      padding-left: 2em;
+    }
+    .gedeelte
+    {
+      display:flex;
+    }
+    .knop1
+    {
+      margin-left: 10px; margin-top: 10px;
+      padding: 0.5em;
+      color: white;
+      background-color: rgb(153, 153, 153);
+      font-size: 10px;
+      border-radius: 0.5em;
+      border: 0px;
+    }
+    .knop2
+    {
+      height: 30px;
+      color: black;
+      background-color: rgb(222, 222, 222);
+      font-size: 20px;
+      border-radius: 0.5em;
+      border: 0px;
+      border: 1px solid black;
+      margin-top: 1em;
+    }
+    .vakske
+    {
+      background-color: rgb(122, 122, 122);
+      width: fit-content;
+      height: fit-content;
+      display: grid;
+      padding: 1em;
+      margin-left: 300px;
+      margin-top: 170px;
+    }
+    input
+    {
+      height: 20px;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="gedeelte">
+      <div class="home">
+        <a href="/html/Main.html"><img src="/Images/HomeIcon.jpg"></a>
+      </div>
+      <div class="tekst">
+        <p>Event koppelen & Arrow function</p>
+      </div>
+    </div>
+  </nav>
+  <button class="knop1" id="button1">Niet op mij klikken!</button>
+  <div class="vakske">
+    <input type="text" id="naam" placeholder="Voer je naam in">
+    <button class="knop2" id="button2">Click me!</button>
+  </div>
+  <script src="/JavaScripts/ArrowFunction.js"></script>
+</body>
+</html>
