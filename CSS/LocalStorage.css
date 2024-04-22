@@ -1,0 +1,69 @@
+body
+    {
+      background-image: url('/Images/Background.jpg');
+      background-size: 300px;
+      margin: 0%;
+      font-family: Arial;
+    }
+    a
+    {
+      text-decoration: none;
+      color: black;
+      font-family: Arial;
+      font-size: large;
+    }
+    nav
+    {
+      background-color: rgb(148, 91, 227);
+      padding: 0.5em;
+    }
+    nav p
+    {
+      font-size: 30px;
+      font-family: Arial;
+      text-align: center;
+      padding-right: 1em;
+    }
+    .home a img
+    {
+      width: 3em;
+      border-radius: 10px;
+    }
+    .home
+    {
+      width: fit-content;
+      align-self: center;
+      padding: 1em;
+    }
+    .home:hover
+    {
+      filter: brightness(40%);
+    }
+    .tekst
+    {
+      width: fit-content;
+      padding-left: 2em;
+    }
+    .gedeelte
+    {
+      display:flex;
+    }
+    .heleDiv
+    {
+      background-color: rgb(234, 255, 132);
+      width: fit-content;
+      margin: 1em;
+      padding: 1em;
+    }
+    textarea 
+    {
+      width: 18em;
+    }
+    .stukje
+    {
+      display: flex;
+    }
+    button 
+    {
+      
+    }
