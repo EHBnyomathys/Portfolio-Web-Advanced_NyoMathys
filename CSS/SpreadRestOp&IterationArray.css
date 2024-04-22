@@ -1,0 +1,70 @@
+body
+    {
+      background-image: url('/Images/Background.jpg');
+      background-size: 300px;
+      margin: 0%;
+      font-family: Arial;
+    }
+    a
+    {
+      text-decoration: none;
+      color: black;
+      font-family: Arial;
+      font-size: large;
+    }
+    nav
+    {
+      background-color: rgb(148, 91, 227);
+      padding: 0.5em;
+    }
+    nav p
+    {
+      font-size: 30px;
+      font-family: Arial;
+      text-align: center;
+      padding-right: 1em;
+    }
+    .home a img
+    {
+      width: 3em;
+      border-radius: 10px;
+    }
+    .home
+    {
+      width: fit-content;
+      align-self: center;
+      padding: 1em;
+    }
+    .home:hover
+    {
+      filter: brightness(40%);
+    }
+    .tekst
+    {
+      width: fit-content;
+      padding-left: 2em;
+    }
+    .gedeelte
+    {
+      display:flex;
+    }
+    .heleDiv 
+    {
+      background-color: rgb(252, 183, 87);
+      width: fit-content;
+      padding: 1em;
+      margin: 1em;
+    }
+    h1 
+    {
+      font-size: larger;
+    }
+    input 
+    {
+      border: none;
+      padding: 0.6em;
+    }
+    button 
+    {
+      padding: 0.6em;
+    }
