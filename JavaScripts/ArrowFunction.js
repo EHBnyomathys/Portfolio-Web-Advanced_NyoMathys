@@ -4,7 +4,7 @@ document.getElementById("button1").addEventListener("click", () => {
   clickedButton1 = true;
 });
 
-const greetUser = (name) => {
+const greetUser = (name, callback) => {
   if (name.trim() !== "")
   {
     if (clickedButton1)
@@ -19,6 +19,9 @@ const greetUser = (name) => {
   else
   {
     alert("Voer alstublieft uw naam in.");
+  }
+  if (typeof callback === 'function') {
+    callback();
   }
 };
 
