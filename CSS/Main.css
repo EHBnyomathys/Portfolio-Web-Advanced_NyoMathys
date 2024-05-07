@@ -22,7 +22,7 @@ body
       width: fit-content;
       display: inline-block;
     }
-    .link:hover
+    .l1:hover, .l2:hover, .l3:hover, .l4:hover, .l5:hover, .l6:hover, .l7:hover, .l8:hover, .l9:hover, .l10:hover, .l11:hover, .l12:hover, .l13:hover, .l14:hover, .l15:hover, .l16:hover, .l17:hover
     {
       background-color: white;
     }
@@ -61,4 +61,174 @@ body
     .gedeelte
     {
       display:flex;
+    }
+    .l1
+    {
+      background-color: rgb(227, 107, 107);
+      border: 1px solid black;
+      border-radius: 10px;
+      padding: 1em;
+      margin: 1em;
+      width: fit-content;
+      display: inline-block;
+    }
+    .l2
+    {
+      background-color: rgb(212, 173, 95);
+      border: 1px solid black;
+      border-radius: 10px;
+      padding: 1em;
+      margin: 1em;
+      width: fit-content;
+      display: inline-block;
+    }
+    .l3
+    {
+      background-color: rgb(188, 230, 111);
+      border: 1px solid black;
+      border-radius: 10px;
+      padding: 1em;
+      margin: 1em;
+      width: fit-content;
+      display: inline-block;
+    }
+    .l4
+    {
+      background-color: rgb(227, 107, 107);
+      border: 1px solid black;
+      border-radius: 10px;
+      padding: 1em;
+      margin: 1em;
+      width: fit-content;
+      display: inline-block;
+    }
+    .l5
+    {
+      background-color: rgb(189, 146, 200);
+      border: 1px solid black;
+      border-radius: 10px;
+      padding: 1em;
+      margin: 1em;
+      width: fit-content;
+      display: inline-block;
+    }
+    .l6
+    {
+      background-color: rgb(227, 143, 168);
+      border: 1px solid black;
+      border-radius: 10px;
+      padding: 1em;
+      margin: 1em;
+      width: fit-content;
+      display: inline-block;
+    }
+    .l7
+    {
+      background-color: rgb(212, 173, 95);
+      border: 1px solid black;
+      border-radius: 10px;
+      padding: 1em;
+      margin: 1em;
+      width: fit-content;
+      display: inline-block;
+    }
+    .l8
+    {
+      background-color: rgb(147, 191, 239);
+      border: 1px solid black;
+      border-radius: 10px;
+      padding: 1em;
+      margin: 1em;
+      width: fit-content;
+      display: inline-block;
+    }
+    .l9
+    {
+      background-color: rgb(197, 197, 197);
+      border: 1px solid black;
+      border-radius: 10px;
+      padding: 1em;
+      margin: 1em;
+      width: fit-content;
+      display: inline-block;
+    }
+    .l10
+    {
+      background-color: rgb(197, 197, 197);
+      border: 1px solid black;
+      border-radius: 10px;
+      padding: 1em;
+      margin: 1em;
+      width: fit-content;
+      display: inline-block;
+    }
+    .l11
+    {
+      background-color: rgb(254, 171, 55);
+      border: 1px solid black;
+      border-radius: 10px;
+      padding: 1em;
+      margin: 1em;
+      width: fit-content;
+      display: inline-block;
+    }
+    .l12
+    {
+      background-color: rgb(197, 197, 197);
+      border: 1px solid black;
+      border-radius: 10px;
+      padding: 1em;
+      margin: 1em;
+      width: fit-content;
+      display: inline-block;
+    }
+    .l13
+    {
+      background-color: rgb(254, 171, 55);
+      border: 1px solid black;
+      border-radius: 10px;
+      padding: 1em;
+      margin: 1em;
+      width: fit-content;
+      display: inline-block;
+    }
+    .l14
+    {
+      background-color: rgb(254, 171, 55);
+      border: 1px solid black;
+      border-radius: 10px;
+      padding: 1em;
+      margin: 1em;
+      width: fit-content;
+      display: inline-block;
+    }
+    .l15
+    {
+      background-color: rgb(252, 52, 52);
+      border: 1px solid black;
+      border-radius: 10px;
+      padding: 1em;
+      margin: 1em;
+      width: fit-content;
+      display: inline-block;
+    }
+    .l16
+    {
+      background-color: rgb(116, 255, 204);
+      border: 1px solid black;
+      border-radius: 10px;
+      padding: 1em;
+      margin: 1em;
+      width: fit-content;
+      display: inline-block;
+    }
+    .l17
+    {
+      background-color: rgb(145, 137, 255);
+      border: 1px solid black;
+      border-radius: 10px;
+      padding: 1em;
+      margin: 1em;
+      width: fit-content;
+      display: inline-block;
     }

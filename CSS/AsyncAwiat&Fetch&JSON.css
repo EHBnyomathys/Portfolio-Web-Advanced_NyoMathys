@@ -1,0 +1,70 @@
+body
+    {
+      background-image: url('/Images/Background.jpg');
+      background-size: 300px;
+      margin: 0%;
+      font-family: Arial;
+    }
+    a
+    {
+      text-decoration: none;
+      color: black;
+      font-family: Arial;
+      font-size: large;
+    }
+    nav
+    {
+      background-color: rgb(148, 91, 227);
+      padding: 0.5em;
+    }
+    nav p
+    {
+      font-size: 30px;
+      font-family: Arial;
+      text-align: center;
+      padding-right: 1em;
+    }
+    .home a img
+    {
+      width: 3em;
+      border-radius: 10px;
+    }
+    .home
+    {
+      width: fit-content;
+      align-self: center;
+      padding: 1em;
+    }
+    .home:hover
+    {
+      filter: brightness(40%);
+    }
+    .tekst
+    {
+      width: fit-content;
+      padding-left: 2em;
+    }
+    .gedeelte
+    {
+      display:flex;
+    }
+    .container {
+      max-width: 600px;
+      margin: 50px auto;
+      text-align: center;
+      background-color: rgb(255, 188, 100);
+      padding: 1em;
+    }
+    
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    
+    li {
+      margin-bottom: 10px;
+      background-color: #f4f4f4;
+      padding: 10px;
+      border-radius: 5px;
+    }
+    
