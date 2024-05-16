@@ -28,4 +28,4 @@ const greetUser = (name, callback) => {
 document.getElementById("button2").addEventListener("click", () => {
   const name = document.getElementById("naam").value;
   greetUser(name);
-});
+  });
