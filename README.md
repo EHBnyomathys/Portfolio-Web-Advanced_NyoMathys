@@ -1,5 +1,6 @@
 # Portfolio-Web-Advanced_NyoMathys
 Hallo, dit is de Readme file over mijn portfolio.
+Om van start te gaan op mijn website start je vanaf 'Main.html'.
 Volgende puntjes heb ik verwerkt doorheen de verschillende pagina's. Sommige onderdelen heb ik apart in 1 bestand verwerkt maar heb toch geprobeerd om enkele te kunnen samenvoegen voor een hoger resultaat!
 
 1. Elementen selecteren ---------------------------
